@@ -1,0 +1,21 @@
+.about_question{
+    padding-top: 22rem;
+}
+.a_box{
+    padding:0.5rem 2rem;
+}
+.question_heading{
+    font-size: 22px !important;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.question_left {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    line-height: 50px;
+    display: flex;
+    justify-content: end;
+}

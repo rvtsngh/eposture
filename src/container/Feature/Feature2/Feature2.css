@@ -1,0 +1,159 @@
+.featureTwo_heading{
+    position: absolute;
+    left: 38%;
+}
+.fTwoBox {
+    position: relative;
+   
+    
+}
+.featureTwo_box{
+    width: 400px;
+    height: 100px;
+    opacity: 1;
+    position: absolute;
+}
+.fTwo_one {
+    z-index: 2;
+    border: 4px solid black;
+    background: #fff;
+}
+ .fTwo_two {
+    top: 10px;
+    left: 10px;
+    border: 4px solid black;
+    background: #fff;
+    z-index: 1;
+}
+.fm {
+    padding-top: 20px;
+}
+.featureTwo_left{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+}
+.featureTwo_right{
+    display: flex;
+    justify-content: start;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 22px !important;
+    font-weight: 700;
+    letter-spacing: 2px;
+    align-items: center;
+}
+.four_features_position{
+    position: relative;
+}
+.four_features{
+    padding: 15rem 5rem;
+}
+.four_features_ui{
+    width: 230px;
+    height: 400px;
+    opacity: 1;
+    position: absolute;
+}
+.four_features_1{
+    z-index: 1;
+    border: 3px solid black;
+    background: #fff;
+}
+.four_features_left1{
+    z-index: 2;
+    border: 3px solid black;
+    background: #fff;
+    left:26%;
+    top:-25px;
+}
+
+.four_features_2{
+    z-index: 1;
+    border: 3px solid black;
+    background: #fff;
+}
+.four_features2{
+   width: 100px;
+    height: 50px;
+    opacity: 1;
+    position: absolute;
+}
+.four_features_two{
+    z-index: 2;
+   
+    left:26%;
+    top:-25px;
+    
+}
+.four_features_3{
+    z-index: 1;
+    
+    background: #F8A2A2;
+    border-radius: 15px;
+}
+.four_features3{
+    width: 150px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    border-radius: 10px;
+}
+.four_features_three{
+    z-index: 2;
+   
+    background: #fff;
+    left:18%;
+    top:-25px;
+}
+
+.four_features_4{
+    z-index: 1;
+    border: 3px solid black;
+    background: #fff;
+}
+.four_features4{
+    width: 100px;
+     height: 50px;
+     opacity: 1;
+     position: absolute;
+ }
+ .four_features_four{
+    z-index: 2;
+    border: 3px solid black;
+    background: #fff;
+    left:26%;
+    top:-25px;
+     
+ }
+ .four_features_four p{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Gothic A1', sans-serif;
+       font-size: 18px !important;
+       font-weight: 700;
+       letter-spacing: 2px;
+ }
+
+.four_features_left{
+    width: 100px;
+    height: 50px;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.four_features_left1 p{
+ text-align: center;
+ padding-top: 10px;
+ font-family: 'Gothic A1', sans-serif;
+    font-size: 18px !important;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.four_features_list p{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 15px !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
