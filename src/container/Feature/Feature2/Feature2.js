@@ -7,7 +7,7 @@ const FeatureTwo = () => {
     return (
         <>
             <div className="featureTwo" style={{ marginTop: "50rem" }}>
-             <ScrollAnimation delay={200} animateIn='bounceInDown' animateOnce={true}>
+             <ScrollAnimation animateIn='bounceInDown' animateOnce={true}>
                 <div className="">
                     <div className="featureTwo_heading">
                         <div className="fTwoBox">
@@ -29,7 +29,7 @@ const FeatureTwo = () => {
                 </ScrollAnimation>
 
                 <div className="four_features">
-                    <ScrollAnimation delay={1000} animateIn='bounceInUp' animateOnce={true}>
+                    <ScrollAnimation delay={400} animateIn='bounceInUp' animateOnce={true}>
                     <div className="row">
                     <div className="col-lg-3 col-md-6 four_features_position">
                     <div className="four_features_ui four_features_1">

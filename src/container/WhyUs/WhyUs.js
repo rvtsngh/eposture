@@ -8,11 +8,11 @@ const WhyUs = () => {
         <>
             <section className="why_us" style={{ paddingTop: "10rem", marginBottom: "5rem" }}>
             <div className="">
-            <ScrollAnimation delay={400} animateIn='bounceIn' animateOnce={true}>
+            <ScrollAnimation animateIn='bounceIn' animateOnce={true}>
             <div className="pBox why_center">
                     <div className="why_box fFirst">
                         <div className="why_us_para" style={{ paddingTop: "6rem" }}>
-            <ScrollAnimation delay={800} animateIn='bounceInLeft' animateOnce={true}>
+            <ScrollAnimation delay={200} animateIn='bounceInLeft' animateOnce={true}>
 
                             <p>
                                 日本国内でも利用者数(8,400万人)が最も多いSNSである, “LINE”。
@@ -21,7 +21,7 @@ const WhyUs = () => {
             </ScrollAnimation>
                         </div>
                         <div className="why_us_para">
-                        <ScrollAnimation delay={1200} animateIn='bounceInRight' animateOnce={true}>
+                        <ScrollAnimation delay={400} animateIn='bounceInRight' animateOnce={true}>
                             <p>
                                 運動・スポーツ施設などに加えて、顧客が継続的に利用することが見込まれる運営形態を有するサービスであれば、
                                 こちらのチャットボットシステムは応用的に活用することができます。
@@ -30,7 +30,7 @@ const WhyUs = () => {
                             </ScrollAnimation>
                         </div>
                         <div className="why_us_para">
-                        <ScrollAnimation delay={1600} animateIn='bounceInLeft' animateOnce={true}>
+                        <ScrollAnimation delay={600} animateIn='bounceInLeft' animateOnce={true}>
                             <p>
                                 With コロナの中で非接触で顧客とコミュニケーションを取ることは必須ですが、それが人件費かからず自動で継続,完了し,
                                 データを蓄積することができるのは非常に大きなポイントです。
@@ -40,7 +40,7 @@ const WhyUs = () => {
                         </ScrollAnimation>
                         </div>
                         <div className="why_us_para">
-                        <ScrollAnimation delay={1800} animateIn='bounceInRight' animateOnce={true}>
+                        <ScrollAnimation delay={800} animateIn='bounceInRight' animateOnce={true}>
                             <p>
                                 人員削減、無人化の施設が急激に増加する中、今までのように従業員の確保、接客の質を担保することが難しくなっています。
                                 この課題を解決する手段として、IoT を活用したサービスの提供が注目されていますが、まだ、Youtube やSNS
