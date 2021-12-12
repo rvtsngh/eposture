@@ -1,23 +1,22 @@
 
 import './App.css';
-import AboutQuestion from './container/About/About1/AboutQuestion';
-import AboutSolution from './container/About/About2/AboutSolution';
-import Feature from './container/Feature/Feature';
-import Hero from './container/Hero/Hero';
-import Navbar from './container/Navbar/Navbar';
-import Service from './container/Service/Service';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import ScrollAnimation from 'react-animate-on-scroll';
+import Home from './pages/Home/Home';
+import Contact from './pages/Contact/Contact';
 
 
 function App() {
   return (
     <>
-        <Navbar />
-         <Hero />
-         <Service />
-          <AboutQuestion />
-          <AboutSolution />
-         <Feature /> 
+    <Router>
+    <Routes>
+         <Route  path="/" element={<Home />} />
+         <Route  path="/contact" element={<Contact />} />
+    </Routes>
+    </Router>
+    
+       
     </>
   );
 }
