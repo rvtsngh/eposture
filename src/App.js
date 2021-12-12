@@ -6,6 +6,7 @@ import Feature from './container/Feature/Feature';
 import Hero from './container/Hero/Hero';
 import Navbar from './container/Navbar/Navbar';
 import Service from './container/Service/Service';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 function App() {
@@ -14,12 +15,9 @@ function App() {
         <Navbar />
          <Hero />
          <Service />
-         <AboutQuestion />
-         <AboutSolution />
-         <Feature />
-       
-   
-   
+          <AboutQuestion />
+          <AboutSolution />
+         <Feature /> 
     </>
   );
 }

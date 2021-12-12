@@ -74,7 +74,7 @@
 .why_us_one{
     z-index: 3;
       
-    left:100% !important;
+    left:97% !important;
     top:5rem !important;
 }
 
@@ -87,7 +87,7 @@
 .why_us_three{
     z-index: 3;
    
-    left:100% !important;
+    left:97% !important;
     top:25rem !important;
 }
 
@@ -103,3 +103,11 @@
    left:-7% !important;
     top:40rem !important;
 }
+
+@media only screen and (max-width: 1400px) {
+    .why_box{
+        width: 800px;
+        height: 900px;
+       
+    }
+  }

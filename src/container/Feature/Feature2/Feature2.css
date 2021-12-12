@@ -4,8 +4,6 @@
 }
 .fTwoBox {
     position: relative;
-   
-    
 }
 .featureTwo_box{
     width: 400px;
@@ -45,6 +43,7 @@
 }
 .four_features_position{
     position: relative;
+    margin-bottom: 30rem;
 }
 .four_features{
     padding: 15rem 5rem;
@@ -124,7 +123,6 @@
     background: #fff;
     left:26%;
     top:-25px;
-     
  }
  .four_features_four p{
     text-align: center;
@@ -157,3 +155,182 @@
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+@media only screen and (max-width: 1250px) {
+    .four_features_ui{
+        width: 200px;
+        height: 400px;
+    }
+    .four_features{
+        padding: 15rem 1rem;
+    }
+    .featureTwo_heading{
+       
+        left: 30%;
+    }
+  }
+  
+  @media only screen and (max-width: 993px) {
+    .four_features_ui{
+        width: 230px;
+        height: 400px;
+    }
+   
+    .four_features{
+        padding: 15rem 10rem;
+    }
+
+    /* .four_features_left{
+        position: relative !important;
+    }
+    .four_features_left1{
+
+        left:6%;
+        top:-25px;
+    }
+    .four_features2{
+         position: relative !important;
+     }
+     .four_features3{
+       
+        position: relative;
+       
+    } */
+    
+  }
+
+  @media only screen and (max-width: 900px) {
+    .four_features{
+        padding: 18rem 8rem;
+    }
+    .featureTwo_heading{
+       
+        left: 25%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .four_features_ui{
+        width: 300px;
+        height: 450px;
+    }
+    .four_features_position{
+        margin-bottom: 35rem;
+        
+    }
+    
+    .four_features{
+        padding: 18rem 13rem;
+    }
+    .featureTwo_heading{
+       
+        left: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .four_features_ui{
+        width: 300px;
+        height: 450px;
+    }
+    .four_features_position{
+        margin-bottom: 35rem;
+    }
+    .four_features{
+        padding: 18rem 11rem;
+    }
+    .featureTwo_heading{
+        left: 17%;
+    }
+    .four_features_left1{
+        left:33%;
+    }
+    .four_features_two{
+        left:33%;
+        top:-25px;
+        
+    }
+    .four_features_three{
+        left:26%;
+        top:-25px;
+    }
+     .four_features_four{
+        left:33%;
+        top:-25px;
+     }
+  }
+  @media only screen and (max-width: 650px) {
+    .four_features_ui{
+        width: 300px;
+        height: 450px;
+    }
+    .four_features{
+        padding: 12rem 7rem;
+    }
+    .featureTwo_heading{
+        left: 20%;
+    }
+    .featureTwo_box{
+        width: 300px;
+        height: 70px;
+    }
+    .featureTwo_right{
+       padding-top: 1px !important;
+        font-size: 16px !important;
+    }
+    .featureTwo_left{
+        margin-top: -7px !important;
+    }
+    
+  }
+  @media only screen and (max-width: 500px) {
+   
+    .four_features{
+        padding: 12rem 5rem;
+    }
+    .featureTwo_heading{
+        left: 18%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .four_features_ui{
+        width: 260px;
+        height: 400px;
+    }
+    .four_features{
+        padding: 12rem 6rem;
+    }
+    .featureTwo_heading{
+        left:15%;
+    }
+    .four_features_left1{
+        left:33%;
+    }
+    .four_features_two{
+        left:33%;
+        top:-25px;
+        
+    }
+    .four_features_three{
+        left:26%;
+        top:-25px;
+    }
+     .four_features_four{
+        left:33%;
+        top:-25px;
+     }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .four_features_ui{
+        width: 260px;
+        height: 400px;
+    }
+    .four_features{
+        padding: 12rem 4rem;
+    }
+    .featureTwo_heading{
+        left:11%;
+    }
+  }

@@ -17,3 +17,43 @@
     display: flex;
     justify-content: start;
 }
+.a2Img{
+    width: 60%;
+}
+@media only screen and (max-width: 1200px) {
+    
+    .a2Img{
+        width: 50%;
+    }
+    .about_solution_layout{
+        padding:0 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 993px) {
+    .solution_left{
+        display: flex;
+        justify-content: center;
+    }
+    .about_solution_layout{
+        padding:0;
+    }
+    .solution_right{
+        justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .solution_right{
+        font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .solution_right{
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 50px;
+    }
+  }
