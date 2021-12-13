@@ -54,17 +54,18 @@
   @media only screen and (max-width: 993px) {
     .pBox {
         position: relative;
-        width: 60%;
+        width: 55%;
         padding-bottom: 20rem !important;
     
     }
     .service-box{
-        width: 400px;
+        width: 370px;
+        height: 140px;
        
-        margin-bottom: 30rem !important;
+       
     }
     .second {
-        top: -47.5% !important;
+        
         left: 1.5% !important;
     }
     
@@ -74,17 +75,25 @@
   }
   @media only screen and (max-width: 768px) {
     .service-box{
-        width: 300px !important;
+        width: 320px !important;
         
     }
     .service_responsive{
         margin: 0;
     }
+    .second {
+        
+        left: 8px !important;
+    }
+    .pBox {
+     
+        width: 75%
+    }
   }
   @media only screen and (max-width: 450px) {
     .pBox {
         position: relative;
-        width: 70%
+        width: 75%
     }
     .service-box{
         width: 300px !important;
@@ -100,5 +109,17 @@
         position: relative;
         width: 80%
     }
-    
+    .service-box{
+        width: 260px !important;
+    }
+    .service_title {
+        font-family: 'Gothic A1', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .service-para{
+        font-family: 'Gothic A1', sans-serif;
+         font-size: 13px; 
+        font-weight: 700;
+    }
   }

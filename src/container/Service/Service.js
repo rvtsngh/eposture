@@ -5,12 +5,12 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Service = () => {
     return (
         <>
-            <section className="service my-5">
-                <div className="container">
+            <section className="service my-5 pt-5">
+                <div className="container "> 
                     <div className="row ">
-                        <div className="col-lg-4 col-11 mx-auto pBox service_responsive">
+                        <div className="col-lg-4 col-12  mx-auto  pBox service_responsive">
                           
-                                <ScrollAnimation delay={1200} animateIn='bounceInLeft' animateOnce={true}>
+                                <ScrollAnimation duration={3} animateIn='bounceInLeft' animateOnce={true}>
                                    
                                         <div className="service-box first">
                                             <div className="center_service d-flex ">
@@ -47,7 +47,7 @@ const Service = () => {
                         </div>
                         <div className="col-lg-4 col-11 mx-auto pBox  service_responsive">
                           
-                                <ScrollAnimation delay={1600} animateIn='bounceInDown' animateOnce={true}>
+                                <ScrollAnimation duration={3} animateIn='bounceInDown' animateOnce={true}>
                                    
                                         <div className="service-box first">
                                             <div className="center_service">
@@ -79,7 +79,7 @@ const Service = () => {
                         </div>
                         <div className="col-lg-4 col-11 mx-auto pBox service_responsive">
                             
-                                <ScrollAnimation delay={2000} animateIn='bounceInRight' animateOnce={true}>
+                                <ScrollAnimation  duration={3} animateIn='bounceInRight' animateOnce={true}>
                                 
                                     <div className="service-box first">
                                         <div className="center_service">

@@ -1,6 +1,6 @@
 .featureTwo_heading{
     position: absolute;
-    left: 38%;
+    left: 33%;
 }
 .fTwoBox {
     position: relative;
@@ -166,7 +166,7 @@
     }
     .featureTwo_heading{
        
-        left: 30%;
+        left: 30%; 
     }
   }
   
@@ -179,24 +179,10 @@
     .four_features{
         padding: 15rem 10rem;
     }
-
-    /* .four_features_left{
-        position: relative !important;
+    .featureTwo_heading{
+        position: absolute;
+        left: 25 %;
     }
-    .four_features_left1{
-
-        left:6%;
-        top:-25px;
-    }
-    .four_features2{
-         position: relative !important;
-     }
-     .four_features3{
-       
-        position: relative;
-       
-    } */
-    
   }
 
   @media only screen and (max-width: 900px) {
@@ -333,4 +319,26 @@
     .featureTwo_heading{
         left:11%;
     }
+    .featureTwo_box{
+        width: 280px;
+        height: 70px;
+
+    }
+    .fTwo_two {
+        top: 6px;
+        left: 6px;
+       
+    }
+    
+  }
+
+  @media only screen and (max-width: 380px) {
+   
+    .four_features{
+        padding: 12rem 3rem;
+    }
+    .featureTwo_heading{
+        left:11%;
+    }
+    
   }
