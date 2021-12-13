@@ -22,7 +22,7 @@ const Video = () => {
                 </div>
 
                 <div className="video_play">
-                <ScrollAnimation delay={400} animateIn='bounceInUp' duration={3} animateOnce={true}>
+                <ScrollAnimation animateIn='bounceInUp' duration={3} animateOnce={true}>
                     <div className="video_box">
                        <h2 className="text-center mt-5 p-5">Video Box</h2>
                     </div>

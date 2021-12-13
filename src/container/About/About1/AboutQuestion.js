@@ -18,7 +18,7 @@ const AboutQuestion = () => {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-7">
-                                    <ScrollAnimation delay={200} duration={3} animateIn='bounceInLeft' animateOnce={true} >
+                                    <ScrollAnimation  duration={3} animateIn='bounceInLeft' animateOnce={true} >
                                     <div className="question_left mt-5 ">
                                             <p>多くの顧客を抱えており, <br />
                                                 データ用紙を集計して,入力するのが<br />
@@ -29,7 +29,7 @@ const AboutQuestion = () => {
                                     </div>
                                     <div className="col-lg-5">
                                     <div className="about1Img">
-                                    <ScrollAnimation delay={400} duration={3} animateIn='bounceInRight'animateOnce={true} >
+                                    <ScrollAnimation duration={3} animateIn='bounceInRight'animateOnce={true} >
                                     <img className="img-fluid a1Img" src="/images/question.png" alt="Question Image" />
                                 </ScrollAnimation>
                                        

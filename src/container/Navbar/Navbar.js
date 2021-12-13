@@ -31,21 +31,21 @@ const Navbar = () => {
                             </div>
                         </div>
                     </nav> */}
-          <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
-              <Link to="/" class="navbar-brand">
+          <nav className="navbar navbar-expand-lg navbar-light ">
+            <div className="container-fluid">
+              <Link to="/" className="navbar-brand">
                 <img className="img-fluid " style={{ width: "50%" }} src="/images/logo.png" alt="Logo Image" />
               </Link>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ">
-                  <li class="nav-item ">
-                    <a class="nav-link logoLink mt-2 " aria-current="page" href="#">LINEとAIを活用したリハビリ・コンディションイングオンラインサポート</a>
+              <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav ">
+                  <li className="nav-item ">
+                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#">LINEとAIを活用したリハビリ・コンディションイングオンラインサポート</a>
                   </li>
-                  <li class="nav-item ">
-                    <Link to="/contact" class="nav-link">
+                  <li className="nav-item ">
+                    <Link to="/contact" className="nav-link">
                       <div className=" pBox">
                                     <div className="nav_box nav_box_first pt-1">
                                         <p>お問合せはこちら</p>

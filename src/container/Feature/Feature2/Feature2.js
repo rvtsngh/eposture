@@ -32,7 +32,7 @@ const FeatureTwo = () => {
                 </ScrollAnimation>
 
                 <div className="four_features">
-                    <ScrollAnimation delay={200} animateIn='bounceInUp' duration={3} animateOnce={true}>
+                    <ScrollAnimation  animateIn='bounceInUp' duration={3} animateOnce={true}>
                         <div className="row">
                             <div className="col-lg-3 col-md-6 four_features_position">
                                 <div className="four_features_ui four_features_1">
