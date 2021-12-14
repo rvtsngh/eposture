@@ -1,16 +1,16 @@
 .logoLink{
     font-family: 'Gothic A1', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 900 !important;
     letter-spacing: 1px;
-    color: black;
+    color: black !important;
     
 }
 .nav_container{
     padding: 0 3rem;
 }
 .nav_box{
-    width: 250px;
+    width: 18n 0px;
     height: 30px;
     opacity: 1;
     position: absolute;
@@ -37,6 +37,7 @@
     font-weight: 700;
     letter-spacing: 3px;
     text-align: center;
+    color: black;
 }
 @media only screen and (max-width: 1000px) {
     .nav_container{

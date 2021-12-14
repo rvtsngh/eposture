@@ -3,7 +3,7 @@ import './Hero.css'
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
-const Hero = () => {
+const Hero = () => { 
     return (
         <section className="hero my-5">
             <div className="box1">
@@ -27,7 +27,7 @@ const Hero = () => {
                             </div>
                             <div className="col-lg-4 col-12 mx-auto d-flex justify-content-center align-items-center">
                                 <ScrollAnimation delay={200} duration={3} animateIn='bounceInRight' animateOnce={true}>
-                                    <img className="img-fluid imgRes" src="/images/hero .png" alt="hero Image" />
+                                    <img className="img-fluid imgRes " src="/images/hero .png" alt="hero Image" />
                                 </ScrollAnimation>
                             </div>
                         </div>
