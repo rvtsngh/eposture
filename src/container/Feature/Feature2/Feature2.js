@@ -7,7 +7,7 @@ const FeatureTwo = () => {
     return (
         <>
             <div className="featureTwo" style={{ marginTop: "50rem" }}>
-                <ScrollAnimation animateIn='bounceInDown' duration={3} animateOnce={true}>
+                <ScrollAnimation animateIn='bounceInDown' duration={2} animateOnce={true}>
                     <div className="row d-flex justify-content-center align-items-center">
                     <div className="col-lg-6 mx-auto">
                     <div className="featureTwo_heading">
@@ -32,7 +32,7 @@ const FeatureTwo = () => {
                 </ScrollAnimation>
 
                 <div className="four_features">
-                    <ScrollAnimation  animateIn='bounceInUp' duration={3} animateOnce={true}>
+                    <ScrollAnimation  animateIn='bounceInUp' duration={2} animateOnce={true}>
                         <div className="row">
                             <div className="col-lg-3 col-md-6 four_features_position">
                                 <div className="four_features_ui four_features_1">

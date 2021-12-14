@@ -6,7 +6,7 @@ const Video = () => {
         <>
             <section className="video">
                 <div className="featureTwo_heading">
-                <ScrollAnimation animateIn='bounceInDown' duration={3} animateOnce={true}>
+                <ScrollAnimation animateIn='bounceInDown' duration={2} animateOnce={true}>
                     <div className="fTwoBox">
                         <div className="featureTwo_box fTwo_one">
                             <div className="video_title">
@@ -22,7 +22,7 @@ const Video = () => {
                 </div>
 
                 <div className="video_play">
-                <ScrollAnimation animateIn='bounceInUp' duration={3} animateOnce={true}>
+                <ScrollAnimation animateIn='bounceInUp' duration={2} animateOnce={true}>
                     <div className="video_box">
                        <h2 className="text-center mt-5 p-5">Video Box</h2>
                     </div>

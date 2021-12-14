@@ -10,7 +10,7 @@ const Service = () => {
                     <div className="row ">
                         <div className="col-lg-4 col-12  mx-auto  pBox service_responsive">
                           
-                                <ScrollAnimation duration={3} animateIn='bounceInLeft' animateOnce={true}>
+                                <ScrollAnimation duration={2} animateIn='bounceInLeft' animateOnce={true}>
                                    
                                         <div className="service-box first">
                                             <div className="center_service d-flex ">
@@ -47,7 +47,7 @@ const Service = () => {
                         </div>
                         <div className="col-lg-4 col-11 mx-auto pBox  service_responsive">
                           
-                                <ScrollAnimation duration={3} animateIn='bounceInDown' animateOnce={true}>
+                                <ScrollAnimation duration={2} animateIn='bounceInDown' animateOnce={true}>
                                    
                                         <div className="service-box first">
                                             <div className="center_service">
@@ -79,7 +79,7 @@ const Service = () => {
                         </div>
                         <div className="col-lg-4 col-11 mx-auto pBox service_responsive">
                             
-                                <ScrollAnimation  duration={3} animateIn='bounceInRight' animateOnce={true}>
+                                <ScrollAnimation  duration={2} animateIn='bounceInRight' animateOnce={true}>
                                 
                                     <div className="service-box first">
                                         <div className="center_service">

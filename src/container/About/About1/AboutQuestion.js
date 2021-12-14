@@ -10,7 +10,7 @@ const AboutQuestion = () => {
                     <div className="a_box">
                         <div className="about_question_layout">
                             <div className="question_heading mb-5 ">
-                            <ScrollAnimation duration={3} animateIn='bounceInDown' animateOnce={true} >
+                            <ScrollAnimation duration={2} animateIn='bounceInDown' animateOnce={true} >
                                   <h2>こんな<span style={{ color: "#F78A8A" }}>お悩み</span>をお持ちでないですか？</h2>
                                 </ScrollAnimation>
                                 
@@ -18,7 +18,7 @@ const AboutQuestion = () => {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-7">
-                                    <ScrollAnimation  duration={3} animateIn='bounceInLeft' animateOnce={true} >
+                                    <ScrollAnimation  duration={2} animateIn='bounceInLeft' animateOnce={true} >
                                     <div className="question_left mt-5 ">
                                             <p>多くの顧客を抱えており, <br />
                                                 データ用紙を集計して,入力するのが<br />
@@ -29,7 +29,7 @@ const AboutQuestion = () => {
                                     </div>
                                     <div className="col-lg-5">
                                     <div className="about1Img">
-                                    <ScrollAnimation duration={3} animateIn='bounceInRight'animateOnce={true} >
+                                    <ScrollAnimation duration={2} animateIn='bounceInRight'animateOnce={true} >
                                     <img className="img-fluid a1Img" src="/images/question.png" alt="Question Image" />
                                 </ScrollAnimation>
                                        

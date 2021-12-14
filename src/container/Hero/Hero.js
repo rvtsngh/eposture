@@ -11,7 +11,7 @@ const Hero = () => {
                     <div className="d-flex d-flex justify-content-center align-items-center" >
                         <div className="row d-flex d-flex justify-content-center align-items-center ">
                             <div className="col-lg-8 col-12  mx-auto d-flex justify-content-center align-items-center">
-                                <ScrollAnimation  duration={3} animateIn='bounceInLeft' animateOnce={true}>
+                                <ScrollAnimation  duration={2} animateIn='bounceInLeft' animateOnce={true}>
                                     <div className="box">
                                         {/* <ScrollAnimation animateIn='fadeIn'> */}
                                             <div className="center">
@@ -26,7 +26,7 @@ const Hero = () => {
                                 </ScrollAnimation>
                             </div>
                             <div className="col-lg-4 col-12 mx-auto d-flex justify-content-center align-items-center">
-                                <ScrollAnimation delay={200} duration={3} animateIn='bounceInRight' animateOnce={true}>
+                                <ScrollAnimation delay={200} duration={2} animateIn='bounceInRight' animateOnce={true}>
                                     <img className="img-fluid imgRes " src="/images/hero .png" alt="hero Image" />
                                 </ScrollAnimation>
                             </div>

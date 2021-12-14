@@ -12,7 +12,7 @@ const Feature = () => {
             <section className="feature">
                 <div className="container_layout">
                     <div className="feature_layout">
-                        <ScrollAnimation  animateIn='bounceIn' duration={3} animateOnce={true}>
+                        <ScrollAnimation  animateIn='bounceIn' duration={2} animateOnce={true}>
                             <div className="" style={{ paddingTop: "10rem" }}>
                                 <div className="pBox feature_center d-flex ">
                                     <div className="feature_box fFirst">

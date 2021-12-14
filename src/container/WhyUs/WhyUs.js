@@ -8,11 +8,11 @@ const WhyUs = () => {
         <>
             <section className="why_us" style={{ paddingTop: "10rem", marginBottom: "5rem" }}>
             <div className="">
-            <ScrollAnimation animateIn='bounceIn' duration={3} animateOnce={true}>
+            <ScrollAnimation animateIn='bounceIn' duration={2} animateOnce={true}>
             <div className="pBox why_center">
                     <div className="why_box fFirst">
                         <div className="why_us_para" style={{ paddingTop: "6rem" }}>
-            <ScrollAnimation  duration={3} animateIn='bounceInLeft' animateOnce={true}>
+            <ScrollAnimation  duration={2} animateIn='bounceInLeft' animateOnce={true}>
             <div className="row">
                 <div className="col-11">
                 <p className="whyPara1" style={{marginRight: "-50px"}}>
@@ -28,7 +28,7 @@ const WhyUs = () => {
             </ScrollAnimation> 
                         </div>
                         <div className="why_us_para">
-                        <ScrollAnimation duration={3} animateIn='bounceInRight' animateOnce={true}>
+                        <ScrollAnimation duration={2} animateIn='bounceInRight' animateOnce={true}>
                         <div className="row">
                             <div className="col-1">
                             <img className="whyImg2"  src="/images/whyUs2.png" alt="Why Us Image 2" />
@@ -46,7 +46,7 @@ const WhyUs = () => {
                             </ScrollAnimation>
                         </div>
                         <div className="why_us_para">
-                        <ScrollAnimation duration={3} animateIn='bounceInLeft' animateOnce={true}>
+                        <ScrollAnimation duration={2} animateIn='bounceInLeft' animateOnce={true}>
                         <div className="row">
                             <div className="col-11">
                             <p  className="whyPara3" style={{marginRight:"-40px"}}>
@@ -64,7 +64,7 @@ const WhyUs = () => {
                         </ScrollAnimation>
                         </div>
                         <div className="why_us_para">
-                        <ScrollAnimation  duration={3} animateIn='bounceInRight' animateOnce={true}>
+                        <ScrollAnimation  duration={2} animateIn='bounceInRight' animateOnce={true}>
                         <div className="row">
                         <div className="col-1">
                             <div className="paraImg">
