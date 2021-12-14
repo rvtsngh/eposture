@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const AboutSolution = () => {
     return (
         <>
-            <section className="about_solution mb-5 pb-5 ">
+            <section className="about_solution mb-lg-5 pb-lg--5 ">
                 <div className="container">
                     <div className="about_solution_layout">
                         <div className="a_box">

@@ -9,30 +9,30 @@ const FeatureTwo = () => {
             <div className="featureTwo" style={{ marginTop: "50rem" }}>
                 <ScrollAnimation animateIn='bounceInDown' duration={2} animateOnce={true}>
                     <div className="row d-flex justify-content-center align-items-center">
-                    <div className="col-lg-6 mx-auto">
-                    <div className="featureTwo_heading">
-                            <div className="fTwoBox">
-                                <div className="featureTwo_box fTwo_one">
-                                    <div className="row fm">
-                                        <div className="col-sm-6 col-5 featureTwo_left">
-                                            <img className="img-fluid " style={{ width: "80%" }} src="/images/logo.png" alt="Feature Image 1" />
+                        <div className="col-lg-6 mx-auto">
+                            <div className="featureTwo_heading">
+                                <div className="fTwoBox">
+                                    <div className="featureTwo_box fTwo_one">
+                                        <div className="row fm">
+                                            <div className="col-sm-6 col-5 featureTwo_left">
+                                                <img className="img-fluid " style={{ width: "80%" }} src="/images/logo.png" alt="Feature Image 1" />
+                                            </div>
+                                            <div className="col-sm-6 col-7 featureTwo_right pt-2">
+                                                <p>導入のイメージ</p>
+                                            </div>
                                         </div>
-                                        <div className="col-sm-6 col-7 featureTwo_right pt-2">
-                                            <p>導入のイメージ</p>
-                                        </div>
-                                    </div>
 
+                                    </div>
+                                    <div className="featureTwo_box fTwo_two"></div>
                                 </div>
-                                <div className="featureTwo_box fTwo_two"></div>
                             </div>
                         </div>
-                    </div>
-                       
+
                     </div>
                 </ScrollAnimation>
 
                 <div className="four_features">
-                    <ScrollAnimation  animateIn='bounceInUp' duration={2} animateOnce={true}>
+                    <ScrollAnimation animateIn='bounceInUp' duration={2} animateOnce={true}>
                         <div className="row">
                             <div className="col-lg-3 col-md-6 four_features_position">
                                 <div className="four_features_ui four_features_1">

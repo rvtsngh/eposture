@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Service = () => {
     return (
         <>
-            <section className="service my-5 pt-5">
+            <section className="service my-lg-5 pt-lg-5">
                 <div className="container "> 
                     <div className="row ">
                         <div className="col-lg-4 col-12  mx-auto  pBox service_responsive">

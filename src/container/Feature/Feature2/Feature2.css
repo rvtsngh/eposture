@@ -313,11 +313,15 @@
         width: 260px;
         height: 400px;
     }
+   .featureTwo{
+       padding-top: -50rem !important;
+   }
     .four_features{
-        padding: 12rem 4rem;
+        padding: 2rem 4rem;
     }
     .featureTwo_heading{
         left:11%;
+        margin-top: -6rem !important;
     }
     .featureTwo_box{
         width: 280px;
@@ -335,7 +339,7 @@
   @media only screen and (max-width: 380px) {
    
     .four_features{
-        padding: 12rem 3rem;
+        padding: 3rem 3rem;
     }
     .featureTwo_heading{
         left:11%;

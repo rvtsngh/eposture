@@ -50,3 +50,7 @@
         padding: 0 0.1rem;
     }
 }
+.navbar-light .navbar-toggler {
+    color: transparent !important;
+    border-color: transparent !important;
+}

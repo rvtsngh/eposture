@@ -95,6 +95,12 @@
         margin-left: 5px;
         width: 60%;
     }
+    .about_question{
+        padding-top: 1rem;
+    }
+    .about_question{
+        padding-top: 1rem !important;
+    }
   }
 
   @media only screen and (max-width: 371px) {

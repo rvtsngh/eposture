@@ -13,7 +13,7 @@ const Feature = () => {
                 <div className="container_layout">
                     <div className="feature_layout">
                         <ScrollAnimation  animateIn='bounceIn' duration={2} animateOnce={true}>
-                            <div className="" style={{ paddingTop: "10rem" }}>
+                            <div className="feature_pad" style={{ paddingTop: "10rem" }}>
                                 <div className="pBox feature_center d-flex ">
                                     <div className="feature_box fFirst">
                                         <div className="feature_list mb-4" style={{ marginTop: "6rem" }}>

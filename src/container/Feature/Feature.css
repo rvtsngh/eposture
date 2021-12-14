@@ -266,6 +266,9 @@
         width: 300px;
        
     }
+    .feature_pad{
+        padding-top: 1rem !important;
+    }
 
     .feature_text{
        
